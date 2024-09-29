@@ -1,0 +1,18 @@
+[package]
+name = "ClaimsChain"
+version = "1.0.0"
+
+[addresses]
+# Main address (the one you generated)
+AuthentiChain = "0xd164a3428d8bda98a280563bf204a189c0d232fa1851125e3aefc2bc188a13c7"
+
+[dev-addresses]
+# Dev address (same as the main address for Devnet)
+AuthentiChain = "0xd164a3428d8bda98a280563bf204a189c0d232fa1851125e3aefc2bc188a13c7"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "devnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
