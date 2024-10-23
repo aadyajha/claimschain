@@ -33,6 +33,14 @@ ClaimsChain is a decentralized platform for managing and verifying claims on the
 3. Commit your changes and push to the branch.
 4. Submit a pull request for review.
 
+## Contract Details
+
+The smart contracts for ClaimsChain are deployed at the following address:
+
+- *Contract Address:* 0xd164a3428d8bda98a280563bf204a189c0d232fa1851125e3aefc2bc188a13c7
+
+You can find this address in the Move.toml file under the relevant section.
+
 ## License
 
 This project is open-source and licensed under the MIT License.
